@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>carousel</title>
+    <link rel="stylesheet" href="css/carousel.css">
+</head>
+<body>
+<div id="carousel" style="width: 400px;height: 300px;margin: 0 auto;position: relative"></div>
+<script type="application/javascript" src="js/carousel.js"></script>
+<script type="application/javascript">
+
+    var a = document.getElementById('carousel');
+    let imgArr = [
+        '../img/1.jpg','../img/2.jpg','../img/3.jpg','../img/4.jpg'
+    ];
+    let b = new Carousel(a,imgArr);
+</script>
+</body>
+</html>
